@@ -1,4 +1,5 @@
-# T_Grafica
+# Topicos_Grafica
+#### Alumno: Condori Mamani Christian Erik.
 ### EJECUCION.
 El proyecto se ejecuta en QTCreator. Importe y Ejecute(Proyecto02/proyecto02.pro). <br />
 ERROR: si al momento de ejecucion da error, una de las causas podria ser la ruta de las imagenes que se estan abriendo. Si es asi, comentar y descomentar lo que se especifica en el archivo "mainwindow.h" en las lineas 31 y 50. <br />
