@@ -27,18 +27,31 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 private:
+
+    /** COMENTARIOS **/
     string ruta_img_1="/home/christian/Documentos/T_Grafica/lena.bmp";
     string ruta_img_1_temp="/home/christian/Documentos/T_Grafica/lena.bmp";
+//  string ruta_img_1;
+//  string ruta_img_1_temp;
+    /** FIN **/
+
+
 
     string ruta_img_1_A="/home/christian/Documentos/T_Grafica/lena.bmp";
     string ruta_img_1_B="/home/christian/Documentos/T_Grafica/lena.bmp";
+
     Mat M_img_A;
     Mat M_img_B;
 
     bool bi=false;
     bool ecu=false;
     vvi histograma_RGB;
+
+    /** Descomentar y Comentar **/
+    //Mat M_img_1;
     Mat M_img_1=imread(ruta_img_1);
+    /** FIN **/
+
     Mat M_img_1_temp;
     Mat M_img_1_temp_c;
     Mat M_img_1_temp_b;
